@@ -3,4 +3,4 @@ function getFirstSelector(selector){
   return sel
 }
 
-getFirstSelector('div')
+//getFirstSelector('div')
