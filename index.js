@@ -1,6 +1,5 @@
 function getFirstSelector(selector){
-  let sel = document.querySelector(selector)
-  return sel
+  return document.querySelector(selector)
 }
 
 //getFirstSelector('div')
