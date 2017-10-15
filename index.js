@@ -15,7 +15,8 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
+  //select the element with id #grand-node, and then call querySelectorAll to create a NodeList
   let sel = document.getElementById('grand-node').querySelectorAll('div');
-  let last = sel.length-1;
-  return (sel[last]);
+  let last = sel.length-1; //set to last element in the NodeList
+  return (sel[last]); //return the last element in NodeList sel
 }
