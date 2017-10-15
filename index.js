@@ -10,3 +10,5 @@ function deepestChild(){
   let sel = document.querySelectorAll('#grand-node')
   console.log(sel)
 }
+
+deepestChild()
